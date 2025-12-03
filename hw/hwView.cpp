@@ -61,7 +61,7 @@ void ChwView::OnInitialUpdate()
 {
 	CView::OnInitialUpdate();
 
-	HRESULT hr = m_bgImage.Load(_T("C:\\Users\\ismit\\Desktop\\map.png"));
+	HRESULT hr = m_bgImage.Load(_T("map.png"));
 	if (FAILED(hr)) { 
 	}
 }
